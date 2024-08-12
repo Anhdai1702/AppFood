@@ -1,0 +1,4 @@
+pod 'Firebase/Anulytics'
+pod 'Firebase/Auth'
+pod 'Toast-Swift'
+

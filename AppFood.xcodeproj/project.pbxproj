@@ -1,0 +1,838 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		932FDD342C399E38000F478A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FDD332C399E38000F478A /* AppDelegate.swift */; };
+		932FDD362C399E38000F478A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FDD352C399E38000F478A /* SceneDelegate.swift */; };
+		932FDD382C399E38000F478A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FDD372C399E38000F478A /* ViewController.swift */; };
+		932FDD3B2C399E38000F478A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 932FDD3A2C399E38000F478A /* Base */; };
+		932FDD3D2C399E3A000F478A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 932FDD3C2C399E3A000F478A /* Assets.xcassets */; };
+		932FDD402C399E3A000F478A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 932FDD3F2C399E3A000F478A /* Base */; };
+		932FDD4A2C399EEA000F478A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FDD482C399EEA000F478A /* LoginViewController.swift */; };
+		932FDD4B2C399EEA000F478A /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932FDD492C399EEA000F478A /* LoginViewController.xib */; };
+		932FDD4E2C399F02000F478A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FDD4C2C399F02000F478A /* SignUpViewController.swift */; };
+		932FDD4F2C399F02000F478A /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932FDD4D2C399F02000F478A /* SignUpViewController.xib */; };
+		932FDD522C399F36000F478A /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FDD502C399F36000F478A /* ForgotPasswordViewController.swift */; };
+		932FDD532C399F36000F478A /* ForgotPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932FDD512C399F36000F478A /* ForgotPasswordViewController.xib */; };
+		932FDD552C39AA80000F478A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FDD542C39AA80000F478A /* Login.swift */; };
+		932FDD572C39AA93000F478A /* Login.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932FDD562C39AA93000F478A /* Login.xib */; };
+		932FDD5A2C3A54AB000F478A /* newPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FDD582C3A54AB000F478A /* newPassViewController.swift */; };
+		932FDD5B2C3A54AB000F478A /* newPassViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932FDD592C3A54AB000F478A /* newPassViewController.xib */; };
+		932FDD5F2C3B342A000F478A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FDD5D2C3B342A000F478A /* HomeViewController.swift */; };
+		932FDD602C3B342A000F478A /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932FDD5E2C3B342A000F478A /* HomeViewController.xib */; };
+		932FDD622C3B34FE000F478A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FDD612C3B34FE000F478A /* Home.swift */; };
+		932FDD642C3B350A000F478A /* Home.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932FDD632C3B350A000F478A /* Home.xib */; };
+		932FDD672C3B3E90000F478A /* HomeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932FDD662C3B3E90000F478A /* HomeCollectionViewCell.xib */; };
+		932FDD682C3B3E90000F478A /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FDD652C3B3E90000F478A /* HomeCollectionViewCell.swift */; };
+		932FDD6A2C3B3F5F000F478A /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FDD692C3B3F5F000F478A /* data.swift */; };
+		932FDD7A2C3B5DDD000F478A /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FDD792C3B5DDD000F478A /* TabBar.swift */; };
+		932FDD7C2C3B5DF2000F478A /* TabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932FDD7B2C3B5DF2000F478A /* TabBar.xib */; };
+		932FDD7F2C3B78EA000F478A /* HomeMenuCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932FDD7E2C3B78EA000F478A /* HomeMenuCollectionViewCell.xib */; };
+		932FDD802C3B78EA000F478A /* HomeMenuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FDD7D2C3B78EA000F478A /* HomeMenuCollectionViewCell.swift */; };
+		932FDD882C3BADD0000F478A /* SeclectFoodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932FDD872C3BADD0000F478A /* SeclectFoodViewController.xib */; };
+		932FDD892C3BADD0000F478A /* SeclectFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FDD862C3BADD0000F478A /* SeclectFoodViewController.swift */; };
+		932FDD8E2C3F3F61000F478A /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932FDD8D2C3F3F61000F478A /* ProfileViewController.xib */; };
+		932FDD8F2C3F3F61000F478A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FDD8C2C3F3F61000F478A /* ProfileViewController.swift */; };
+		932FDD962C410D2E000F478A /* PayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932FDD952C410D2E000F478A /* PayViewController.xib */; };
+		932FDD972C410D2E000F478A /* PayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FDD942C410D2E000F478A /* PayViewController.swift */; };
+		932FDD9A2C42471E000F478A /* FishishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932FDD992C42471E000F478A /* FishishViewController.xib */; };
+		932FDD9B2C42471E000F478A /* FishishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FDD982C42471E000F478A /* FishishViewController.swift */; };
+		932FDD9E2C425DCB000F478A /* HeartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932FDD9D2C425DCB000F478A /* HeartViewController.xib */; };
+		932FDD9F2C425DCB000F478A /* HeartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FDD9C2C425DCB000F478A /* HeartViewController.swift */; };
+		932FDDA22C425E2B000F478A /* HeartTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932FDDA12C425E2B000F478A /* HeartTableViewCell.xib */; };
+		932FDDA32C425E2B000F478A /* HeartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 932FDDA02C425E2B000F478A /* HeartTableViewCell.swift */; };
+		938C383B2C59651B0057C410 /* SaleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 938C383A2C59651B0057C410 /* SaleViewController.xib */; };
+		938C383C2C59651B0057C410 /* SaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938C38392C59651B0057C410 /* SaleViewController.swift */; };
+		938CD6052C6297C100238AA3 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938CD6042C6297C100238AA3 /* CustomView.swift */; };
+		938CD60C2C62ACBF00238AA3 /* CustomViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938CD60A2C62ACBF00238AA3 /* CustomViewTableViewCell.swift */; };
+		938CD60D2C62ACBF00238AA3 /* CustomViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 938CD60B2C62ACBF00238AA3 /* CustomViewTableViewCell.xib */; };
+		938CD60F2C62AF7D00238AA3 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 938CD60E2C62AF7D00238AA3 /* CustomView.xib */; };
+		938CD6122C63136E00238AA3 /* CustomViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938CD6102C63136E00238AA3 /* CustomViewCollectionViewCell.swift */; };
+		938CD6132C63136E00238AA3 /* CustomViewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 938CD6112C63136E00238AA3 /* CustomViewCollectionViewCell.xib */; };
+		938CD6152C68A72200238AA3 /* CustomAnimiton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938CD6142C68A72200238AA3 /* CustomAnimiton.swift */; };
+		938CD6172C692CE900238AA3 /* FirebaseFirestore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 938CD6162C692CE900238AA3 /* FirebaseFirestore.framework */; };
+		938CD61B2C692CEE00238AA3 /* FirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 938CD61A2C692CEE00238AA3 /* FirebaseAuth.framework */; };
+		939A81F52C52DD21002E5E29 /* CustomViewHeart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939A81F42C52DD21002E5E29 /* CustomViewHeart.swift */; };
+		939A81F72C52DD31002E5E29 /* CustomViewHeart.xib in Resources */ = {isa = PBXBuildFile; fileRef = 939A81F62C52DD31002E5E29 /* CustomViewHeart.xib */; };
+		939A81F92C54A3D4002E5E29 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 939A81F82C54A3D4002E5E29 /* GoogleService-Info.plist */; };
+		939A820B2C5620B8002E5E29 /* ScreenSaverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939A82092C5620B8002E5E29 /* ScreenSaverViewController.swift */; };
+		939A820C2C5620B8002E5E29 /* ScreenSaverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 939A820A2C5620B8002E5E29 /* ScreenSaverViewController.xib */; };
+		FB10F28A1AF4ECC607A7D73C /* Pods_AppFood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21D5A9A68D0C1E17F988650 /* Pods_AppFood.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		938CD6192C692CE900238AA3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		35298833B9C206984E614FE2 /* Pods-AppFood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppFood.release.xcconfig"; path = "Target Support Files/Pods-AppFood/Pods-AppFood.release.xcconfig"; sourceTree = "<group>"; };
+		932FDD302C399E38000F478A /* AppFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		932FDD332C399E38000F478A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		932FDD352C399E38000F478A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		932FDD372C399E38000F478A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		932FDD3A2C399E38000F478A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		932FDD3C2C399E3A000F478A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		932FDD3F2C399E3A000F478A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		932FDD412C399E3A000F478A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		932FDD482C399EEA000F478A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		932FDD492C399EEA000F478A /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		932FDD4C2C399F02000F478A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		932FDD4D2C399F02000F478A /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		932FDD502C399F36000F478A /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		932FDD512C399F36000F478A /* ForgotPasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordViewController.xib; sourceTree = "<group>"; };
+		932FDD542C39AA80000F478A /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		932FDD562C39AA93000F478A /* Login.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Login.xib; sourceTree = "<group>"; };
+		932FDD582C3A54AB000F478A /* newPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newPassViewController.swift; sourceTree = "<group>"; };
+		932FDD592C3A54AB000F478A /* newPassViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = newPassViewController.xib; sourceTree = "<group>"; };
+		932FDD5D2C3B342A000F478A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		932FDD5E2C3B342A000F478A /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		932FDD612C3B34FE000F478A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		932FDD632C3B350A000F478A /* Home.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Home.xib; sourceTree = "<group>"; };
+		932FDD652C3B3E90000F478A /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		932FDD662C3B3E90000F478A /* HomeCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCollectionViewCell.xib; sourceTree = "<group>"; };
+		932FDD692C3B3F5F000F478A /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		932FDD792C3B5DDD000F478A /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		932FDD7B2C3B5DF2000F478A /* TabBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabBar.xib; sourceTree = "<group>"; };
+		932FDD7D2C3B78EA000F478A /* HomeMenuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMenuCollectionViewCell.swift; sourceTree = "<group>"; };
+		932FDD7E2C3B78EA000F478A /* HomeMenuCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeMenuCollectionViewCell.xib; sourceTree = "<group>"; };
+		932FDD862C3BADD0000F478A /* SeclectFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeclectFoodViewController.swift; sourceTree = "<group>"; };
+		932FDD872C3BADD0000F478A /* SeclectFoodViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeclectFoodViewController.xib; sourceTree = "<group>"; };
+		932FDD8C2C3F3F61000F478A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		932FDD8D2C3F3F61000F478A /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		932FDD942C410D2E000F478A /* PayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayViewController.swift; sourceTree = "<group>"; };
+		932FDD952C410D2E000F478A /* PayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PayViewController.xib; sourceTree = "<group>"; };
+		932FDD982C42471E000F478A /* FishishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishishViewController.swift; sourceTree = "<group>"; };
+		932FDD992C42471E000F478A /* FishishViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FishishViewController.xib; sourceTree = "<group>"; };
+		932FDD9C2C425DCB000F478A /* HeartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartViewController.swift; sourceTree = "<group>"; };
+		932FDD9D2C425DCB000F478A /* HeartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeartViewController.xib; sourceTree = "<group>"; };
+		932FDDA02C425E2B000F478A /* HeartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartTableViewCell.swift; sourceTree = "<group>"; };
+		932FDDA12C425E2B000F478A /* HeartTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeartTableViewCell.xib; sourceTree = "<group>"; };
+		938C38392C59651B0057C410 /* SaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleViewController.swift; sourceTree = "<group>"; };
+		938C383A2C59651B0057C410 /* SaleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SaleViewController.xib; sourceTree = "<group>"; };
+		938CD6042C6297C100238AA3 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		938CD60A2C62ACBF00238AA3 /* CustomViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewTableViewCell.swift; sourceTree = "<group>"; };
+		938CD60B2C62ACBF00238AA3 /* CustomViewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomViewTableViewCell.xib; sourceTree = "<group>"; };
+		938CD60E2C62AF7D00238AA3 /* CustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		938CD6102C63136E00238AA3 /* CustomViewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewCollectionViewCell.swift; sourceTree = "<group>"; };
+		938CD6112C63136E00238AA3 /* CustomViewCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomViewCollectionViewCell.xib; sourceTree = "<group>"; };
+		938CD6142C68A72200238AA3 /* CustomAnimiton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimiton.swift; sourceTree = "<group>"; };
+		938CD6162C692CE900238AA3 /* FirebaseFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		938CD61A2C692CEE00238AA3 /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		939A81F42C52DD21002E5E29 /* CustomViewHeart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewHeart.swift; sourceTree = "<group>"; };
+		939A81F62C52DD31002E5E29 /* CustomViewHeart.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomViewHeart.xib; sourceTree = "<group>"; };
+		939A81F82C54A3D4002E5E29 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		939A82092C5620B8002E5E29 /* ScreenSaverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSaverViewController.swift; sourceTree = "<group>"; };
+		939A820A2C5620B8002E5E29 /* ScreenSaverViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScreenSaverViewController.xib; sourceTree = "<group>"; };
+		B21D5A9A68D0C1E17F988650 /* Pods_AppFood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppFood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB519D324D102438572B6451 /* Pods-AppFood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppFood.debug.xcconfig"; path = "Target Support Files/Pods-AppFood/Pods-AppFood.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		932FDD2D2C399E38000F478A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938CD61B2C692CEE00238AA3 /* FirebaseAuth.framework in Frameworks */,
+				FB10F28A1AF4ECC607A7D73C /* Pods_AppFood.framework in Frameworks */,
+				938CD6172C692CE900238AA3 /* FirebaseFirestore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39708078CFC991B1E785AA51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB519D324D102438572B6451 /* Pods-AppFood.debug.xcconfig */,
+				35298833B9C206984E614FE2 /* Pods-AppFood.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		932FDD272C399E38000F478A = {
+			isa = PBXGroup;
+			children = (
+				932FDD812C3BAD9C000F478A /* seclectFood */,
+				932FDD5C2C3B341A000F478A /* Home */,
+				932FDD472C399E44000F478A /* Account */,
+				932FDD322C399E38000F478A /* AppFood */,
+				932FDD312C399E38000F478A /* Products */,
+				39708078CFC991B1E785AA51 /* Pods */,
+				CAFD3FA6B585C88565CE7890 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		932FDD312C399E38000F478A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				932FDD302C399E38000F478A /* AppFood.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		932FDD322C399E38000F478A /* AppFood */ = {
+			isa = PBXGroup;
+			children = (
+				932FDD332C399E38000F478A /* AppDelegate.swift */,
+				932FDD352C399E38000F478A /* SceneDelegate.swift */,
+				932FDD372C399E38000F478A /* ViewController.swift */,
+				932FDD392C399E38000F478A /* Main.storyboard */,
+				932FDD3C2C399E3A000F478A /* Assets.xcassets */,
+				932FDD3E2C399E3A000F478A /* LaunchScreen.storyboard */,
+				932FDD412C399E3A000F478A /* Info.plist */,
+				932FDD692C3B3F5F000F478A /* data.swift */,
+				939A81F82C54A3D4002E5E29 /* GoogleService-Info.plist */,
+			);
+			path = AppFood;
+			sourceTree = "<group>";
+		};
+		932FDD472C399E44000F478A /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				939A82092C5620B8002E5E29 /* ScreenSaverViewController.swift */,
+				939A820A2C5620B8002E5E29 /* ScreenSaverViewController.xib */,
+				932FDD482C399EEA000F478A /* LoginViewController.swift */,
+				932FDD492C399EEA000F478A /* LoginViewController.xib */,
+				932FDD542C39AA80000F478A /* Login.swift */,
+				932FDD562C39AA93000F478A /* Login.xib */,
+				932FDD4C2C399F02000F478A /* SignUpViewController.swift */,
+				932FDD4D2C399F02000F478A /* SignUpViewController.xib */,
+				932FDD502C399F36000F478A /* ForgotPasswordViewController.swift */,
+				932FDD512C399F36000F478A /* ForgotPasswordViewController.xib */,
+				932FDD582C3A54AB000F478A /* newPassViewController.swift */,
+				932FDD592C3A54AB000F478A /* newPassViewController.xib */,
+				938CD6142C68A72200238AA3 /* CustomAnimiton.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		932FDD5C2C3B341A000F478A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				932FDD5D2C3B342A000F478A /* HomeViewController.swift */,
+				932FDD5E2C3B342A000F478A /* HomeViewController.xib */,
+				932FDD612C3B34FE000F478A /* Home.swift */,
+				932FDD632C3B350A000F478A /* Home.xib */,
+				932FDD652C3B3E90000F478A /* HomeCollectionViewCell.swift */,
+				932FDD662C3B3E90000F478A /* HomeCollectionViewCell.xib */,
+				932FDD792C3B5DDD000F478A /* TabBar.swift */,
+				932FDD7B2C3B5DF2000F478A /* TabBar.xib */,
+				932FDD7D2C3B78EA000F478A /* HomeMenuCollectionViewCell.swift */,
+				932FDD7E2C3B78EA000F478A /* HomeMenuCollectionViewCell.xib */,
+				932FDD8C2C3F3F61000F478A /* ProfileViewController.swift */,
+				932FDD8D2C3F3F61000F478A /* ProfileViewController.xib */,
+				932FDD9C2C425DCB000F478A /* HeartViewController.swift */,
+				932FDD9D2C425DCB000F478A /* HeartViewController.xib */,
+				932FDDA02C425E2B000F478A /* HeartTableViewCell.swift */,
+				932FDDA12C425E2B000F478A /* HeartTableViewCell.xib */,
+				939A81F42C52DD21002E5E29 /* CustomViewHeart.swift */,
+				939A81F62C52DD31002E5E29 /* CustomViewHeart.xib */,
+				938C38392C59651B0057C410 /* SaleViewController.swift */,
+				938C383A2C59651B0057C410 /* SaleViewController.xib */,
+				938CD60A2C62ACBF00238AA3 /* CustomViewTableViewCell.swift */,
+				938CD60B2C62ACBF00238AA3 /* CustomViewTableViewCell.xib */,
+				938CD6042C6297C100238AA3 /* CustomView.swift */,
+				938CD60E2C62AF7D00238AA3 /* CustomView.xib */,
+				938CD6102C63136E00238AA3 /* CustomViewCollectionViewCell.swift */,
+				938CD6112C63136E00238AA3 /* CustomViewCollectionViewCell.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		932FDD812C3BAD9C000F478A /* seclectFood */ = {
+			isa = PBXGroup;
+			children = (
+				932FDD862C3BADD0000F478A /* SeclectFoodViewController.swift */,
+				932FDD872C3BADD0000F478A /* SeclectFoodViewController.xib */,
+				932FDD942C410D2E000F478A /* PayViewController.swift */,
+				932FDD952C410D2E000F478A /* PayViewController.xib */,
+				932FDD982C42471E000F478A /* FishishViewController.swift */,
+				932FDD992C42471E000F478A /* FishishViewController.xib */,
+			);
+			path = seclectFood;
+			sourceTree = "<group>";
+		};
+		CAFD3FA6B585C88565CE7890 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				938CD61A2C692CEE00238AA3 /* FirebaseAuth.framework */,
+				938CD6162C692CE900238AA3 /* FirebaseFirestore.framework */,
+				B21D5A9A68D0C1E17F988650 /* Pods_AppFood.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		932FDD2F2C399E38000F478A /* AppFood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932FDD442C399E3A000F478A /* Build configuration list for PBXNativeTarget "AppFood" */;
+			buildPhases = (
+				4EADB6D60D8E47581134CE92 /* [CP] Check Pods Manifest.lock */,
+				932FDD2C2C399E38000F478A /* Sources */,
+				932FDD2D2C399E38000F478A /* Frameworks */,
+				932FDD2E2C399E38000F478A /* Resources */,
+				EE0C0281E6187610DF58A96F /* [CP] Embed Pods Frameworks */,
+				938CD6192C692CE900238AA3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppFood;
+			packageProductDependencies = (
+			);
+			productName = AppFood;
+			productReference = 932FDD302C399E38000F478A /* AppFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		932FDD282C399E38000F478A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					932FDD2F2C399E38000F478A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 932FDD2B2C399E38000F478A /* Build configuration list for PBXProject "AppFood" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 932FDD272C399E38000F478A;
+			packageReferences = (
+				939A81FA2C54A5CA002E5E29 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 932FDD312C399E38000F478A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				932FDD2F2C399E38000F478A /* AppFood */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		932FDD2E2C399E38000F478A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932FDD532C399F36000F478A /* ForgotPasswordViewController.xib in Resources */,
+				932FDD962C410D2E000F478A /* PayViewController.xib in Resources */,
+				938CD6132C63136E00238AA3 /* CustomViewCollectionViewCell.xib in Resources */,
+				932FDD4F2C399F02000F478A /* SignUpViewController.xib in Resources */,
+				932FDD5B2C3A54AB000F478A /* newPassViewController.xib in Resources */,
+				932FDD8E2C3F3F61000F478A /* ProfileViewController.xib in Resources */,
+				932FDD4B2C399EEA000F478A /* LoginViewController.xib in Resources */,
+				932FDD3D2C399E3A000F478A /* Assets.xcassets in Resources */,
+				932FDD402C399E3A000F478A /* Base in Resources */,
+				932FDD642C3B350A000F478A /* Home.xib in Resources */,
+				932FDD3B2C399E38000F478A /* Base in Resources */,
+				932FDD672C3B3E90000F478A /* HomeCollectionViewCell.xib in Resources */,
+				932FDD572C39AA93000F478A /* Login.xib in Resources */,
+				932FDD9E2C425DCB000F478A /* HeartViewController.xib in Resources */,
+				938CD60D2C62ACBF00238AA3 /* CustomViewTableViewCell.xib in Resources */,
+				932FDD602C3B342A000F478A /* HomeViewController.xib in Resources */,
+				932FDDA22C425E2B000F478A /* HeartTableViewCell.xib in Resources */,
+				938CD60F2C62AF7D00238AA3 /* CustomView.xib in Resources */,
+				932FDD7C2C3B5DF2000F478A /* TabBar.xib in Resources */,
+				939A81F92C54A3D4002E5E29 /* GoogleService-Info.plist in Resources */,
+				932FDD882C3BADD0000F478A /* SeclectFoodViewController.xib in Resources */,
+				939A81F72C52DD31002E5E29 /* CustomViewHeart.xib in Resources */,
+				932FDD9A2C42471E000F478A /* FishishViewController.xib in Resources */,
+				939A820C2C5620B8002E5E29 /* ScreenSaverViewController.xib in Resources */,
+				932FDD7F2C3B78EA000F478A /* HomeMenuCollectionViewCell.xib in Resources */,
+				938C383B2C59651B0057C410 /* SaleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4EADB6D60D8E47581134CE92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppFood-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE0C0281E6187610DF58A96F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppFood/Pods-AppFood-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppFood/Pods-AppFood-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppFood/Pods-AppFood-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		932FDD2C2C399E38000F478A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938CD6152C68A72200238AA3 /* CustomAnimiton.swift in Sources */,
+				932FDD892C3BADD0000F478A /* SeclectFoodViewController.swift in Sources */,
+				932FDD552C39AA80000F478A /* Login.swift in Sources */,
+				938CD6122C63136E00238AA3 /* CustomViewCollectionViewCell.swift in Sources */,
+				932FDD9B2C42471E000F478A /* FishishViewController.swift in Sources */,
+				932FDD9F2C425DCB000F478A /* HeartViewController.swift in Sources */,
+				932FDD4A2C399EEA000F478A /* LoginViewController.swift in Sources */,
+				932FDD7A2C3B5DDD000F478A /* TabBar.swift in Sources */,
+				932FDD622C3B34FE000F478A /* Home.swift in Sources */,
+				932FDD382C399E38000F478A /* ViewController.swift in Sources */,
+				938CD60C2C62ACBF00238AA3 /* CustomViewTableViewCell.swift in Sources */,
+				939A81F52C52DD21002E5E29 /* CustomViewHeart.swift in Sources */,
+				932FDD8F2C3F3F61000F478A /* ProfileViewController.swift in Sources */,
+				932FDD802C3B78EA000F478A /* HomeMenuCollectionViewCell.swift in Sources */,
+				932FDD522C399F36000F478A /* ForgotPasswordViewController.swift in Sources */,
+				932FDD342C399E38000F478A /* AppDelegate.swift in Sources */,
+				932FDD682C3B3E90000F478A /* HomeCollectionViewCell.swift in Sources */,
+				938C383C2C59651B0057C410 /* SaleViewController.swift in Sources */,
+				932FDD6A2C3B3F5F000F478A /* data.swift in Sources */,
+				932FDDA32C425E2B000F478A /* HeartTableViewCell.swift in Sources */,
+				932FDD972C410D2E000F478A /* PayViewController.swift in Sources */,
+				939A820B2C5620B8002E5E29 /* ScreenSaverViewController.swift in Sources */,
+				938CD6052C6297C100238AA3 /* CustomView.swift in Sources */,
+				932FDD5F2C3B342A000F478A /* HomeViewController.swift in Sources */,
+				932FDD362C399E38000F478A /* SceneDelegate.swift in Sources */,
+				932FDD5A2C3A54AB000F478A /* newPassViewController.swift in Sources */,
+				932FDD4E2C399F02000F478A /* SignUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		932FDD392C399E38000F478A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				932FDD3A2C399E38000F478A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		932FDD3E2C399E3A000F478A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				932FDD3F2C399E3A000F478A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		932FDD422C399E3A000F478A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		932FDD432C399E3A000F478A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		932FDD452C399E3A000F478A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB519D324D102438572B6451 /* Pods-AppFood.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppFood/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Bac Tu Liem, Ha Noi";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Bac Tu Liem, Ha Noi";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"FBLPromises\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseAppCheckInterop\"",
+					"-framework",
+					"\"FirebaseAuth\"",
+					"-framework",
+					"\"FirebaseAuthInterop\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreExtension\"",
+					"-framework",
+					"\"FirebaseCoreInternal\"",
+					"-framework",
+					"\"FirebaseFirestore\"",
+					"-framework",
+					"\"FirebaseFirestoreInternal\"",
+					"-framework",
+					"\"FirebaseInstallations\"",
+					"-framework",
+					"\"FirebaseSharedSwift\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GTMSessionFetcher\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleAppMeasurementIdentitySupport\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"Lottie\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"RecaptchaInterop\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"absl\"",
+					"-framework",
+					"\"grpc\"",
+					"-framework",
+					"\"grpcpp\"",
+					"-framework",
+					"\"leveldb\"",
+					"-framework",
+					"\"nanopb\"",
+					"-framework",
+					"\"openssl_grpc\"",
+					"-weak_framework",
+					"\"Combine\"",
+					"-weak_framework",
+					"\"FirebaseFirestoreInternal\"",
+					"-weak_framework",
+					"\"SwiftUI\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = braniumAcademy.AppFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		932FDD462C399E3A000F478A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35298833B9C206984E614FE2 /* Pods-AppFood.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppFood/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Bac Tu Liem, Ha Noi";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Bac Tu Liem, Ha Noi";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"FBLPromises\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseAppCheckInterop\"",
+					"-framework",
+					"\"FirebaseAuth\"",
+					"-framework",
+					"\"FirebaseAuthInterop\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreExtension\"",
+					"-framework",
+					"\"FirebaseCoreInternal\"",
+					"-framework",
+					"\"FirebaseFirestore\"",
+					"-framework",
+					"\"FirebaseFirestoreInternal\"",
+					"-framework",
+					"\"FirebaseInstallations\"",
+					"-framework",
+					"\"FirebaseSharedSwift\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GTMSessionFetcher\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleAppMeasurementIdentitySupport\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"Lottie\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"RecaptchaInterop\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"absl\"",
+					"-framework",
+					"\"grpc\"",
+					"-framework",
+					"\"grpcpp\"",
+					"-framework",
+					"\"leveldb\"",
+					"-framework",
+					"\"nanopb\"",
+					"-framework",
+					"\"openssl_grpc\"",
+					"-weak_framework",
+					"\"Combine\"",
+					"-weak_framework",
+					"\"FirebaseFirestoreInternal\"",
+					"-weak_framework",
+					"\"SwiftUI\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = braniumAcademy.AppFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		932FDD2B2C399E38000F478A /* Build configuration list for PBXProject "AppFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932FDD422C399E3A000F478A /* Debug */,
+				932FDD432C399E3A000F478A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		932FDD442C399E3A000F478A /* Build configuration list for PBXNativeTarget "AppFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932FDD452C399E3A000F478A /* Debug */,
+				932FDD462C399E3A000F478A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		939A81FA2C54A5CA002E5E29 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.29.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 932FDD282C399E38000F478A /* Project object */;
+}

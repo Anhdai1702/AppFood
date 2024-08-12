@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="AppFood" customModuleProvider="target">
+            <connections>
+                <outlet property="collec" destination="HTk-S6-u0o" id="RaC-3F-Vaa"/>
+                <outlet property="customView" destination="rov-EL-1cd" id="pEF-Bb-QQM"/>
+                <outlet property="customviewHome" destination="Mvp-KO-N7e" id="j8z-zN-MsA"/>
+                <outlet property="home" destination="Mvp-KO-N7e" id="AVA-0j-BZS"/>
+                <outlet property="tabBar" destination="rov-EL-1cd" id="r4F-Np-raq"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="HTk-S6-u0o">
+                    <rect key="frame" x="0.0" y="59" width="393" height="793"/>
+                    <color key="backgroundColor" red="0.95686274509803915" green="0.95686274509803915" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="fIu-A4-c9o">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="20" minY="330" maxX="20" maxY="10"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rov-EL-1cd" customClass="TabBar" customModule="AppFood" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="779" width="393" height="73"/>
+                    <color key="backgroundColor" systemColor="linkColor"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mvp-KO-N7e" customClass="Home" customModule="AppFood" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="59" width="393" height="309"/>
+                    <color key="backgroundColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="0.81115480129999995" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.95686274509803915" green="0.95686274509803915" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="HTk-S6-u0o" secondAttribute="bottom" id="19R-0l-FVP"/>
+                <constraint firstItem="Mvp-KO-N7e" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="DNS-Gt-Z26"/>
+                <constraint firstItem="Mvp-KO-N7e" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="GWc-Qh-2nl"/>
+                <constraint firstAttribute="bottom" secondItem="rov-EL-1cd" secondAttribute="bottom" id="JZB-La-Teo"/>
+                <constraint firstItem="rov-EL-1cd" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="720" id="Rdv-nF-QIJ"/>
+                <constraint firstItem="rov-EL-1cd" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="UtX-05-Zf0"/>
+                <constraint firstItem="HTk-S6-u0o" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="ap3-1c-SG7"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Mvp-KO-N7e" secondAttribute="bottom" constant="450" id="b2i-tG-cmr"/>
+                <constraint firstItem="HTk-S6-u0o" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="bKE-IN-PRo"/>
+                <constraint firstItem="Mvp-KO-N7e" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="mzD-ic-H8M"/>
+                <constraint firstItem="rov-EL-1cd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="w02-jU-BEt"/>
+                <constraint firstItem="HTk-S6-u0o" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="zbV-D6-h3h"/>
+            </constraints>
+            <point key="canvasLocation" x="139.69465648854961" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
